@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73AC7451C4034DF00B69CD6 /* The White House.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B73AC7441C4034DF00B69CD6 /* The White House.gpx */; };
+		B73AC7471C40399200B69CD6 /* Boston.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B73AC7461C40399200B69CD6 /* Boston.gpx */; };
+		B73AC7491C403A0900B69CD6 /* Chicago.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B73AC7481C403A0900B69CD6 /* Chicago.gpx */; };
+		B73AC74B1C403A7200B69CD6 /* Los Angeles.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B73AC74A1C403A7200B69CD6 /* Los Angeles.gpx */; };
 		B77AF5841C402C470023DD05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77AF5831C402C470023DD05 /* AppDelegate.swift */; };
 		B77AF5861C402C470023DD05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77AF5851C402C470023DD05 /* ViewController.swift */; };
 		B77AF5891C402C470023DD05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77AF5871C402C470023DD05 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B73AC7441C4034DF00B69CD6 /* The White House.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "The White House.gpx"; sourceTree = "<group>"; };
+		B73AC7461C40399200B69CD6 /* Boston.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Boston.gpx; sourceTree = "<group>"; };
+		B73AC7481C403A0900B69CD6 /* Chicago.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chicago.gpx; sourceTree = "<group>"; };
+		B73AC74A1C403A7200B69CD6 /* Los Angeles.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Los Angeles.gpx"; sourceTree = "<group>"; };
 		B77AF5801C402C470023DD05 /* Location Spoofer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Spoofer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77AF5831C402C470023DD05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B77AF5851C402C470023DD05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +85,10 @@
 		B77AF5771C402C470023DD05 = {
 			isa = PBXGroup;
 			children = (
+				B73AC74A1C403A7200B69CD6 /* Los Angeles.gpx */,
+				B73AC7481C403A0900B69CD6 /* Chicago.gpx */,
+				B73AC7461C40399200B69CD6 /* Boston.gpx */,
+				B73AC7441C4034DF00B69CD6 /* The White House.gpx */,
 				B77AF5821C402C470023DD05 /* Location Spoofer */,
 				B77AF5971C402C470023DD05 /* Location SpooferTests */,
 				B77AF5A21C402C470023DD05 /* Location SpooferUITests */,
@@ -231,7 +243,11 @@
 			files = (
 				B77AF58E1C402C470023DD05 /* LaunchScreen.storyboard in Resources */,
 				B77AF58B1C402C470023DD05 /* Assets.xcassets in Resources */,
+				B73AC7451C4034DF00B69CD6 /* The White House.gpx in Resources */,
+				B73AC7471C40399200B69CD6 /* Boston.gpx in Resources */,
+				B73AC7491C403A0900B69CD6 /* Chicago.gpx in Resources */,
 				B77AF5891C402C470023DD05 /* Main.storyboard in Resources */,
+				B73AC74B1C403A7200B69CD6 /* Los Angeles.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +500,7 @@
 				B77AF5AA1C402C470023DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B77AF5AB1C402C470023DD05 /* Build configuration list for PBXNativeTarget "Location SpooferTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				B77AF5AD1C402C470023DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B77AF5AE1C402C470023DD05 /* Build configuration list for PBXNativeTarget "Location SpooferUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				B77AF5B01C402C470023DD05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
